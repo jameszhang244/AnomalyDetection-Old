@@ -1,5 +1,7 @@
 # AnomalyDetection
 
+## Project: Anomaly detection in wide area network mesh using two Machine Learning anomaly detection algorithms
+
 ### Install
 This project requires Python 2.7 and the following Python libraries installed:
 
