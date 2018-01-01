@@ -1,6 +1,6 @@
 # AnomalyDetection
 
-## Install
+### Install
 This project requires Python 2.7 and the following Python libraries installed:
 
 * [NumPy](http://www.numpy.org/)
