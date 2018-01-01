@@ -9,7 +9,7 @@ This project requires Python 2.7 and the following Python libraries installed:
 * [scikit-learn](http://scikit-learn.org/stable/)
 * [Keras](https://keras.io/)
 
-You will also need to have software installed to run and execute a Jupyter Notebook
+You will also need to have software installed to run and execute a [Jupyter Notebook](https://jupyter.org/)
 
 If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
