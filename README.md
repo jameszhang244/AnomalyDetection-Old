@@ -15,8 +15,36 @@ You will also need to have software installed to run and execute a [Jupyter Note
 
 If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
-Code
-Template code is provided in the boston_housing.ipynb notebook file. You will also be required to use the included visuals.py Python file and the housing.csv dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in visuals.py is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+### Code
+The code for each experiment can be found in the AnomalyDetection file along with this README. You will be required to use the simulated_data.py Python file for all code using Boosted Decision Trees (BDT) involving simulated data.
+
+The following is a summary of each file in the order of its use in the paper.
+
+A. Boosted Decision Trees
+
+A.1. Decision Stumps vs. Decision Trees
+TestingBDTonSimulatedDataSTUMPS.ipynb
+TestingBDTonSimulatedDataTREES_6.ipynb
+
+A.2. Anomaly Duration vs. Degree of Anomalous Behavior
+BDTonSimulatedDataDegreeDurationTest.ipynb
+The code in this file fluctuates the degree to which an anomaly differed from normal data, the duration of anomalous behavior, and the number of timeseries affected for a simulated data set.
+
+A.3 Application on real data
+PacketLossWithAnalysis&Delay-30days.ipynb
+
+B. Simple feed forward neural network
+
+B1. Application on simulated data
+
+B2. Impact of duration, magnitude of anomaly, and number of affected timeseries
+
+B3. Performance on actual data
+
+The code is provided in the
+You will also have be required to use the included 
+
+BDTonSimulatedDataDegreeDurationTest.ipynb
 
 Run
 In a terminal or command window, navigate to the top-level project directory boston_housing/ (that contains this README) and run one of the following commands:
