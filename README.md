@@ -22,8 +22,8 @@ The following is a summary of each file in the order of its use in the paper.
 
 *A. Boosted Decision Trees*
 
-*A.1. Decision Stumps vs. Decision Trees*
-TestingBDTonSimulatedDataSTUMPS.ipynb
+*A.1. Decision Stumps vs. Decision Trees*  
+TestingBDTonSimulatedDataSTUMPS.ipynb  
 TestingBDTonSimulatedDataTREES_6.ipynb
 
 *A.2. Anomaly Duration vs. Degree of Anomalous Behavior*  
