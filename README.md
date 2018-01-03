@@ -26,12 +26,11 @@ The following is a summary of each file in the order of its use in the paper.
 TestingBDTonSimulatedDataSTUMPS.ipynb
 TestingBDTonSimulatedDataTREES_6.ipynb
 
-*A.2. Anomaly Duration vs. Degree of Anomalous Behavior*
-
+*A.2. Anomaly Duration vs. Degree of Anomalous Behavior*  
 BDTonSimulatedDataDegreeDurationTest.ipynb  
 The code in this file fluctuates the degree to which an anomaly differed from normal data, the duration of anomalous behavior, and the number of timeseries affected for a simulated data set.
 
-*A.3 Application on real data*
+*A.3 Application on real data*  
 PacketLossWithAnalysis&Delay-30days.ipynb
 
 *B. Simple feed forward neural network*
@@ -42,7 +41,7 @@ PacketLossWithAnalysis&Delay-30days.ipynb
 
 *B3. Performance on actual data*
 
-The code is provided in the
+The code is provided in the  
 You will also have be required to use the included 
 
 BDTonSimulatedDataDegreeDurationTest.ipynb
@@ -50,10 +49,10 @@ BDTonSimulatedDataDegreeDurationTest.ipynb
 ### Run
 In a terminal or command window, navigate to the top-level project directory boston_housing/ (that contains this README) and run one of the following commands:
 
-ipython notebook boston_housing.ipynb
+ipython notebook boston_housing.ipynb  
 or
 
-jupyter notebook boston_housing.ipynb
+jupyter notebook boston_housing.ipynb  
 This will open the Jupyter Notebook software and project file in your browser.
 
 ### Data
