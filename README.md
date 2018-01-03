@@ -27,6 +27,7 @@ TestingBDTonSimulatedDataSTUMPS.ipynb
 TestingBDTonSimulatedDataTREES_6.ipynb
 
 *A.2. Anomaly Duration vs. Degree of Anomalous Behavior*
+
 BDTonSimulatedDataDegreeDurationTest.ipynb
 The code in this file fluctuates the degree to which an anomaly differed from normal data, the duration of anomalous behavior, and the number of timeseries affected for a simulated data set.
 
