@@ -13,7 +13,7 @@ This project requires Python 2.7 and the following Python libraries installed:
 
 You will also need to have software installed to run and execute a [Jupyter Notebook](https://jupyter.org/)
 
-If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
+If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included.
 
 ### Code
 The code for each experiment can be found in the AnomalyDetection file along with this README. You will be required to use the simulated_data.py Python file for all code using Boosted Decision Trees (BDT) involving simulated data.
@@ -24,7 +24,10 @@ The following is a summary of each file in the order of its use in the paper.
 
 *A.1. Decision Stumps vs. Decision Trees*  
 TestingBDTonSimulatedDataSTUMPS.ipynb  
-TestingBDTonSimulatedDataTREES_6.ipynb
+Tested the effectiveness of boosted decision trees utilizing trees of depth one (decision stumps) on simulated data.  
+
+TestingBDTonSimulatedDataTREES_6.ipynb  
+Tested the effectiveness of boosted decision trees utilizing trees of depth 6 on simulated data.  
 
 *A.2. Anomaly Duration vs. Degree of Anomalous Behavior*  
 BDTonSimulatedDataDegreeDurationTest.ipynb  
