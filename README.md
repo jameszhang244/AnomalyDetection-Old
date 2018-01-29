@@ -31,10 +31,11 @@ Tested the effectiveness of boosted decision trees utilizing trees of depth 6 on
 
 *A.2. Anomaly Duration vs. Degree of Anomalous Behavior*  
 BDTonSimulatedDataDegreeDurationTest.ipynb  
-The code in this file fluctuates the degree to which an anomaly differed from normal data, the duration of anomalous behavior, and the number of timeseries affected for a simulated data set.
+Data fluctuates the degree to which an anomaly differed from normal data, the duration of anomalous behavior, and the number of timeseries affected for a simulated data set.
 
 *A.3 Application on real data*  
 PacketLossWithAnalysis&Delay-30days.ipynb
+Tested the decision trees on a period of 30 days of real data.
 
 *B. Simple feed forward neural network*
 
@@ -49,21 +50,12 @@ You will also have be required to use the included
 
 BDTonSimulatedDataDegreeDurationTest.ipynb
 
-### Run
-In a terminal or command window, navigate to the top-level project directory boston_housing/ (that contains this README) and run one of the following commands:
-
-ipython notebook boston_housing.ipynb  
-or
-
-jupyter notebook boston_housing.ipynb  
-This will open the Jupyter Notebook software and project file in your browser.
-
 ### Data
 The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the UCI Machine Learning Repository.
 
 Features
 
-RM: average number of rooms per dwelling
-LSTAT: percentage of population considered lower status
-PTRATIO: pupil-teacher ratio by town
-Target Variable 4. MEDV: median value of owner-occupied homes
+Throughput: the amount of data that can be transferred over a period of time (25s)
+Packet loss rate: the percentage of lost packets over the total transferred packets in one-minute intervals
+One-way delay (OWD): delay (in ms) separately for each direction of a path
+Traceroute: the path and transition time between the source and destination
