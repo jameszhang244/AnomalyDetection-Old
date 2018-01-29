@@ -51,11 +51,11 @@ You will also have be required to use the included
 BDTonSimulatedDataDegreeDurationTest.ipynb
 
 ### Data
-The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the UCI Machine Learning Repository.
+We use two different datasets to test the functionality of the new machine learning algorithms as applied to network anomaly detection: one a simulated data, the other, real data.  
 
 Features
 
-Throughput: the amount of data that can be transferred over a period of time (25s)
-Packet loss rate: the percentage of lost packets over the total transferred packets in one-minute intervals
-One-way delay (OWD): delay (in ms) separately for each direction of a path
-Traceroute: the path and transition time between the source and destination
+Throughput: the amount of data that can be transferred over a period of time (25s)  
+Packet loss rate: the percentage of lost packets over the total transferred packets in one-minute intervals  
+One-way delay (OWD): delay (in ms) separately for each direction of a path  
+Traceroute: the path and transition time between the source and destination  
